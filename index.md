@@ -22,7 +22,6 @@
 		
 		table {
 			white-space:nowrap;
-			width:100%;
 		}
 		
 		.contbox {

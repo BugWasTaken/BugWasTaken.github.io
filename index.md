@@ -8,15 +8,24 @@
 			background: url(https://static.wolvden.com/images/backgrounds/tundra_Canada_Manitoba_LaplandRosebay.png);
     			background-size: cover;
     		}
+		
+		h1 {
+			color: #553b09;
+		}
+		
 		table, tr, td {
 			border: 1px solid black;
 		}
 		
+		table {
+			width: 80%;
+		}
+		
 		.contbox {
 			align: center;
-			background: white;
+			background: #f1ebe0ba;
 			border-radius: 10px;
-			padding: auto;
+			padding: 15px;
 		}
 	</style>
 	

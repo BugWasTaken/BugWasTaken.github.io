@@ -4,9 +4,13 @@
 	<script type="text/javascript" src="script.js"></script>
 	
 	<style>
+	
+		@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+	
 		body {
 			background: url(https://static.wolvden.com/images/backgrounds/tundra_Canada_Manitoba_LaplandRosebay.png);
     			background-size: cover;
+			font-family: 'Amatic SC', cursive;
     		}
 		
 		h1 {

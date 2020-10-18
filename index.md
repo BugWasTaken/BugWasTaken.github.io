@@ -22,13 +22,13 @@
 		</tr>
 		<tr>
 			<td>
-				<input type="text" id="Wname"></input>
+				<input type="text" id="Wname">
 			</td>
 			<td>
-				<input type="number" id="Wlvl"></input>
+				<input type="number" id="Wlvl">
 			</td>
 			<td>
-				<input type="number" id="Wstat"></input>
+				<input type="number" id="Wstat">
 			</td>
 		</tr>
 	</table>
@@ -52,10 +52,10 @@
 		</tr>
 		<tr>
 			<td>
-				<input type="number" id="p1"></input>
+				<input type="number" id="p1">
 			</td>
 			<td>
-				<input type="number" id="p2"></input>
+				<input type="number" id="p2">
 			</td>
 		</tr>
 	</table>

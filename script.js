@@ -11,6 +11,7 @@ function lilstat() {
 	p2 = parseInt(document.getElementById('p2').value);
 	
 	var p3 = Math.floor(((p1 + p2)/2) - ((p1 - p2)/1.45));
+	p3 = p3 - 100;
 	
 	document.getElementById('genbox').innerHTML = "<b>Approximate Offspring Stats: " + p3 + " Stats.</b>";
 }

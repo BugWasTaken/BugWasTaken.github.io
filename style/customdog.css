@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+
+body {
+	background:url(https://static.wolvden.com/images/backgrounds/desert_USA_Arizona_TheButtes.png) center center fixed;
+	background-size: cover;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	font-size: 115%;
+}
+
+a {
+	color: #FFF1E6;
+}
+
+#sidebar {
+	background: rgba(0,0,0,0);
+}
+
+.card-img-top {
+	border-radius: 15px;
+}
+
+.breadcrumb-nav, .breadcrumb, #main, .card, #header {
+	background: transparent;
+}
+
+#header .breadcrumb-nav {
+	background: transparent;
+}
+
+#main .card{
+	background: transparent;
+}
+
+#header .navbar-status {
+	border-radius: 0px 0px 30px 30px;
+	background: #1e140f;
+}
+
+#header .navbar-main {
+	background: #2c1e17;
+}
+
+.table {
+    border: 1px solid #25252500;
+	background-color: #DDBEA9;
+	border-radius: 25px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #CB997E;
+}
+
+.form-row {
+	border-radius: 20px;
+    background-color: #2c1e17bf;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+.table .subheader {
+    color: #684634;
+    background-color: #EDDCD2;
+}
+
+.table .bottom, .table tfoot td {
+    color: #252525;
+    background-color: #EDDCD2;
+    text-align: center;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.table th a {
+    color: #FFF1E6;
+}
+
+.allydiv {
+    font-size: 14px;
+    text-shadow: 0px 0px 4px black;
+	z-index: 5;
+}
+
+#sidebar .card {
+    border: 0;
+	border-bottom: 8px solid #9b938e00;
+    background-color: #2c1e17c9;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.table .left {
+    background-color: #2c1e17;
+}
+
+.bpx {
+    position: absolute;
+    margin-top: -180px;
+    left: 70%;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: rgb(0 0 0 / 0%);
+    border-bottom: 1px solid rgb(0 0 0 / 0%);
+}
+
+.table th {
+    color: #fff;
+    background-color: #2c1e17;
+	border-radius: 25px 25px 0px 0px;
+	background-image: url('https://cdn.discordapp.com/attachments/756341238084665405/760128620823576627/18546024-abstract-wave-background.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+#footer {
+    border-radius: 100% 100% 0px 0px;
+    background-color: #2c1e17;
+    color: #e2e2e2;
+    text-align: center;
+}
+
+#header .navbar-main .nav-link {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #FFF1E6;
+    text-transform: uppercase;
+    padding-right: .5rem;
+}
+
+#header .navbar-main .nav-link .fa {
+    width: 1.25rem;
+    height: 20px;
+    position: relative;
+    top: -1px;
+    font-size: 1rem;
+    color: #e07724;
+    margin-right: .35rem;
+    text-align: center;
+}
+
+.s-chat-message:nth-child(even) {
+    background: #ddbea9;
+}
+
+.s-chat-message:nth-child(odd) {
+    background: #caa590;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #e07724;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 2px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    background: #e2a16d url(//static.wolvden.com/images/layout/chat/sticky.png) no-repeat 10px 6px;
+    border-bottom-color: #004C7D !important;
+    color: #023856;
+    font-weight: bold;
+}
+
+#txtChatContainer #lblCharacterCounter {
+    color: #c2c2c2;
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    right: 4px;
+    top: -20px;
+}
+
+.imgcirc {
+	border-radius: 100%;
+}
+
+.bgdu {
+	background-image: url('https://cdn.discordapp.com/attachments/696205255834337290/759082620193341490/dst_copy.png');
+	background-repeat: repeat-x;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+	top: 10%;
+    left: 0;
+	opacity: 0.6;
+	pointer-events: none;
+	z-index: -5;
+	
+	-webkit-animation: scrolldust 5s linear infinite;
+    -moz-animation: scrolldust 5s linear infinite;
+    -o-animation: scrolldust 5s linear infinite;
+    animation: scrolldust 5s linear infinite;
+
+}
+
+@-webkit-keyframes scrolldust {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: -1188px 0;
+  }
+}

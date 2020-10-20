@@ -3,17 +3,71 @@
 var wolfarr = [];
 var i = 0;
 
-var p1 = 0;
-var p2 = 0;
+//STATS//
+var p1str;
+var p1spe;
+var p1agi;
+var p1wis;
+var p1sma;
+var p1tot;
 
-function lilstat() {
-	p1 = parseInt(document.getElementById('p1').value);
-	p2 = parseInt(document.getElementById('p2').value);
+var p2str;
+var p2spe;
+var p2agi;
+var p2wis;
+var p2sma;
+var p2tot;
+
+var ostr;
+var ospe;
+var oagi;
+var owis;
+var osma;
+var otot;
+
+function lilstat2() {
+	//------------WOLF 1--------------//
+	p1str = parseInt(document.getElementById('p1str').value);
+	p1spe = parseInt(document.getElementById('p1spe').value);
+	p1agi = parseInt(document.getElementById('p1agi').value);
+	p1wis = parseInt(document.getElementById('p1wis').value);
+	p1sma = parseInt(document.getElementById('p1sma').value);
 	
-	var p3 = Math.floor(((p1 + p2)/2) - ((p1 - p2)/1.45));
-	p3 = p3 - 100;
+	p1tot = p1str + p1spe + p1agi + p1wis + p1sma;
 	
-	document.getElementById('genbox').innerHTML = "<b>Approximate Offspring Stats: " + p3 + " Stats.</b>";
+	//------------WOLF 2--------------//
+	p2str = parseInt(document.getElementById('p2str').value);
+	p2spe = parseInt(document.getElementById('p2spe').value);
+	p2agi = parseInt(document.getElementById('p2agi').value);
+	p2wis = parseInt(document.getElementById('p2wis').value);
+	p2sma = parseInt(document.getElementById('p2sma').value);
+	
+	p2tot = p2str + p2spe + p2agi + p2wis + p2sma;
+	
+	//------------PUP-----------------//
+	ostr = (p1str + p2str)/2;
+	ostr = ostr - (0.10 * ostr);
+	ospe = (p1spe + p2spe)/2;
+	ospe = ospe - (0.10 * ospe);
+	oagi = (p1agi + p2agi)/2;
+	oagi = oagi - (0.10 * oagi);
+	owis = (p1wis + p2wis)/2;
+	owis = owis - (0.10 * owis);
+	osma = (p1sma + p2sma)/2;
+	osma = osma - (0.10 * osma);
+	
+	otot = ostr + ospe + oagi + owis + osma;
+	
+	document.getElementById('p1tot').innerHTML = p1tot;
+	document.getElementById('p2tot').innerHTML = p2tot;
+	
+	document.getElementById('ostr').innerHTML = ostr;
+	document.getElementById('ospe').innerHTML = ospe;
+	document.getElementById('oagi').innerHTML = oagi;
+	document.getElementById('owis').innerHTML = owis;
+	document.getElementById('osma').innerHTML = osma;
+	
+	document.getElementById('otot').innerHTML = Math.floor(otot);
 }
 
 

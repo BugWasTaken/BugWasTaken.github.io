@@ -61,11 +61,11 @@ function lilstat2() {
 	document.getElementById('p1tot').innerHTML = p1tot;
 	document.getElementById('p2tot').innerHTML = p2tot;
 	
-	document.getElementById('ostr').innerHTML = ostr;
-	document.getElementById('ospe').innerHTML = ospe;
-	document.getElementById('oagi').innerHTML = oagi;
-	document.getElementById('owis').innerHTML = owis;
-	document.getElementById('osma').innerHTML = osma;
+	document.getElementById('ostr').innerHTML = Math.floor(ostr);
+	document.getElementById('ospe').innerHTML = Math.floor(ospe);
+	document.getElementById('oagi').innerHTML = Math.floor(oagi);
+	document.getElementById('owis').innerHTML = Math.floor(owis);
+	document.getElementById('osma').innerHTML = Math.floor(osma);
 	
 	document.getElementById('otot').innerHTML = Math.floor(otot);
 }

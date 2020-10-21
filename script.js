@@ -56,7 +56,7 @@ function lilstat2() {
 	osma = (p1sma + p2sma)/2;
 	osma = osma - (0.10 * osma);
 	
-	otot = ostr + ospe + oagi + owis + osma;
+	otot = (ostr + ospe + oagi + owis + osma) - 100;
 	
 	document.getElementById('p1tot').innerHTML = p1tot;
 	document.getElementById('p2tot').innerHTML = p2tot;

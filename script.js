@@ -46,15 +46,15 @@ function lilstat2() {
 	
 	//------------PUP-----------------//
 	ostr = (p1str + p2str)/2;
-	ostr = ostr - (ostr - 22);
+	ostr = ostr - 22);
 	ospe = (p1spe + p2spe)/2;
-	ospe = ospe - (ospe - 22);
+	ospe = ospe - 22);
 	oagi = (p1agi + p2agi)/2;
-	oagi = oagi - (oagi - 22);
+	oagi = oagi - 22);
 	owis = (p1wis + p2wis)/2;
-	owis = owis - (owis - 22);
+	owis = owis - 22);
 	osma = (p1sma + p2sma)/2;
-	osma = osma - (osma - 22);
+	osma = osma - 22);
 	
 	otot = ostr + ospe + oagi + owis + osma;
 	

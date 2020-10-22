@@ -46,17 +46,17 @@ function lilstat2() {
 	
 	//------------PUP-----------------//
 	ostr = (p1str + p2str)/2;
-	ostr = ostr - (0.10 * ostr);
+	ostr = ostr - (ostr - 22);
 	ospe = (p1spe + p2spe)/2;
-	ospe = ospe - (0.10 * ospe);
+	ospe = ospe - (ospe - 22);
 	oagi = (p1agi + p2agi)/2;
-	oagi = oagi - (0.10 * oagi);
+	oagi = oagi - (oagi - 22);
 	owis = (p1wis + p2wis)/2;
-	owis = owis - (0.10 * owis);
+	owis = owis - (owis - 22);
 	osma = (p1sma + p2sma)/2;
-	osma = osma - (0.10 * osma);
+	osma = osma - (osma - 22);
 	
-	otot = (ostr + ospe + oagi + owis + osma) - 100;
+	otot = ostr + ospe + oagi + owis + osma;
 	
 	document.getElementById('p1tot').innerHTML = p1tot;
 	document.getElementById('p2tot').innerHTML = p2tot;

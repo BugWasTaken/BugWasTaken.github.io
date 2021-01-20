@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/footer_lodyas.png');
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#Form {
+  text-align: center;
+}
+
+#tosbox {
+  text-align: center;
+	margin: auto;
+	border-radius: 5px;
+	width: 60%;
+	padding: 20px;
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/blizzard.png');
+}
+
+.orngvider {
+	background: #ff7922;
+	width: 200%;
+	height: 60%;
+	left: -30%;
+	bottom: -60%;
+	z-index: -10;
+	float: left;
+	position: fixed;
+	transform: rotate(20deg);
+}
+
+.deccirc {
+	margin: auto;
+	border: 5px solid #ff7922;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+}

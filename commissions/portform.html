@@ -1,6 +1,7 @@
 <HTML>
 <head>
 	<title>Quickpaint Portrait Commission Form</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="helioprism.css"/>
 </head>
 <body>
@@ -8,6 +9,16 @@
 		<div class="deccirc"></div><br/>
 		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfd89uxnH4joI6RWz4FAbq3ej5DMasek4spogIq6Iz8VkPfjg/viewform?embedded=true" width="640" height="1600" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
 	</div>
+	<script>
+		var loadCounter = 0;
+		var loaded = function() {
+			loadCounter += 1;
+			if (loadCounter === 2) {
+				$("iframe").attr("height", "500px");
+				$(window).scrollTo(315,0)
+			}
+		}
+	</script>
 	
 	<div class="orngvider"></div>
 </body>
